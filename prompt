@@ -1,0 +1,21 @@
+Genere moi une application backend avec spring boot 3.5 et java 21 selon les specification suivantes: 
+
+- HttpOnly cookies
+
+- Jwt rotation token et blacklister les token via redis - RBAC(user, role et permissions tables) - AuthController avec register, login, refresh et logout endpoints. 
+
+- Diagramme de classe: une region peut avoir un ou plusieur responsable de meme role, le responsable gere les bureau de vente(bv) de sa region, la region contient plusieurs villes, et chaque ville contient plusieurs quatiers, et chaque quartier contient des bureau de vente. 
+
+dans son portail web, il peut selectionner directement bv, ou filter par ville puis par quartier, puis selectionner bv. 
+
+-Concevoir correctement les endpoints du responsable connecté au portail afin d'afficher les liste a selectionner eu front.
+
+ RegisterDto seulement reduit a un email, username et password, le siege
+
+-utliliser les Validator, exception handling, flayway, postgresql, swagger. 
+
+Respecter les bonne pratique le minimum legal
+
+implementer HttpOnly JWT cookies correctement 
+
+-l'application est petite, pas de complexion, le minimum correct, light version.
